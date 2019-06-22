@@ -1,5 +1,5 @@
 body {
-	background-color: #B2E9FD;
+	background-color: rgb(44, 62, 68);
 }
 
 .header h2 {
@@ -14,3 +14,21 @@ body {
 	margin-top: 20px;
 }
 
+.search-select {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 1;
+}
+
+.selector {
+	background-color: rgb(167, 202, 224)
+}
+
+select {
+	padding: 0px;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
